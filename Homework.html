@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initail-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Carousel Example</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!--Wrapper for slides-->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://i.pinimg.com/1200x/74/71/0c/74710c4afe8956e9ac23d08b5adbef55.jpg" alt="Los Angeles" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="https://i.pinimg.com/1200x/10/3f/a3/103fa32a398e8eac3d0b7abbacc1cdd5.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="https://i.pinimg.com/736x/62/56/7a/62567ad90a25c17b5baa70d243137310.jpg" alt="New York" style="width:100%;">
+                    </div>
+                </div>
+
+                <!--Left and right controls-->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Next</span>
+                </a> 
+            </div>
+        </div> 
+    </body>
+</html>
